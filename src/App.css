@@ -1,38 +1,64 @@
 .App {
+  margin: 0;
   text-align: center;
+  background-color: #111144;
+  color: white;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 80%;
+  font-size: 1.2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span {
+  color: #44CCCC;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Carro {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px 0px;
+}
+
+.retroceder{
+  transform: rotateZ(-90deg);
+  transition: all 1s;
+}
+.avanzar{
+  transform: rotateZ(90deg);
+  transition: all 1s;
+}
+.derecha{
+  transform: rotateZ(180deg);
+  transition: all 1s;
+}
+.izquierda{
+  transform: rotateZ(0deg);
+  transition: all 1s;
+}
+.detener{
+  transform: rotateZ(90deg);
+  opacity: 0.5;
+  transition: all 1s;
+}
+
+.BtnTimmers {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: #44CCCC;
+  color: black;
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
