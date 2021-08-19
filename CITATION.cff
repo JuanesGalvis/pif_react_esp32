@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Galvis
+  given-names: "Juan
+title: "carro controlado mediante el giroscopio del celular"
+version: 1.0.0
+date-released: 2021-08-19
+url: "https://github.com/JuanesGalvis/pif_react_esp32"
